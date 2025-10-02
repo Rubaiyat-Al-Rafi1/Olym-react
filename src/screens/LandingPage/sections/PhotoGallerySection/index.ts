@@ -1,0 +1,1 @@
+export { PhotoGallerySection } from "./PhotoGallerySection";
