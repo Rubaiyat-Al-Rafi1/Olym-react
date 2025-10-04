@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
 import { Button } from '../ui/button';
-import { Eye, FileText, Trophy, BarChart3, Users, Clock, Calendar } from 'lucide-react';
+import { Eye, FileText, Trophy, ChartBar as BarChart3, Users, Clock, Calendar } from 'lucide-react';
 
 const ModeratorDashboard: React.FC = () => {
   const { user } = useAuth();

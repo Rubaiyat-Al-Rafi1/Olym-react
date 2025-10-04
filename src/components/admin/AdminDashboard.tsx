@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
 import { Button } from '../ui/button';
-import { Users, BookOpen, UserCheck, BarChart3, Settings, Calendar, Clock } from 'lucide-react';
+import { Users, BookOpen, UserCheck, ChartBar as BarChart3, Settings, Calendar, Clock } from 'lucide-react';
 
 const AdminDashboard: React.FC = () => {
   const { user } = useAuth();
