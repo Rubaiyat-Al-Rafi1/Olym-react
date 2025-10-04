@@ -20,7 +20,7 @@ export const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-8">
           <Link to="/" className="flex items-center gap-2">
-            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Bangladesh Olympiad logo" width="40" height="40" decoding="async" className="w-10 h-10 object-contain hover:scale-105 transition-transform" />
+            <img src="/logo.png" alt="Bangladesh Olympiad logo" width="40" height="40" decoding="async" className="w-10 h-10 object-contain hover:scale-105 transition-transform" />
             <span className="text-xl font-bold bg-gradient-to-r from-green-600 to-red-500 bg-clip-text text-transparent">
               Bangladesh Olympiad
             </span>
